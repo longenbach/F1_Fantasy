@@ -43,7 +43,7 @@ Fantasy points are a little more complex which is detailed in the next section. 
 </p>
 
 
-
+## Fantasy Points:
 
 
 
