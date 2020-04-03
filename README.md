@@ -22,7 +22,9 @@ Extra:
 For the details see [games rules](https://fantasy.formula1.com/game-rules).
 
 ## Historical Data:
-In case you are new to F1 like myself -- having binged the [Netflix series](https://www.netflix.com/title/80204890) -- F1 is has a relatively small field for each race. Qualifying occurs in a three-stage "knockout" system. During stages all drivers who have not yet been eleminated are on the track try to set the fastest lap time. This process sets the starting grid for the race which is typically held on Sunday. 
+In case you are new to F1 like myself -- having watched the [Netflix series](https://www.netflix.com/title/80204890) -- F1 is has a relatively small field for each race. Qualifying occurs in a three-stage "knockout" system. During stages all drivers who have not yet been eleminated are on the track try to set the fastest lap time. This process sets the starting grid for the race which is typically held on Sunday. 
+
+Question: How does a driver's start position affect his finish position? 
 
 
 
