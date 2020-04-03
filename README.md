@@ -1,5 +1,10 @@
 # F1 Fantasy 2020
 
+
+<p align="center">
+  <img src="imgs/Netflix.png" width="400"/>
+</p>
+
 ## Overview:
 * Webscrape historical result data (qualifying, starting grid, race results) from [F1 website](https://www.formula1.com/en/results.html).   
 * Calculate driver/constructor points based on [fantasy points scoring](https://fantasy.formula1.com/points-scoring).
