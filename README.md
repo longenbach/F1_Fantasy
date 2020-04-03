@@ -35,8 +35,12 @@ Fantasy points are a little more complex which is detailed in the next section. 
   <img src="imgs/2019_ResultvStart.png" width="400"/>
 </p>
 
-**Question:** Are driver's that start outside top 10 less likely to finish? (Since only top 10 scores points towards Championships)
+**Question:** Since only the top 10 drivers score, are drivers that start outside top 10 less likely to finish? (NC = Not Classified, DQ = Disqualification)
 
+<p align="center">
+  <img src="imgs/2018_NCs.png" width="400"/>
+  <img src="imgs/2019_NCs.png" width="400"/>
+</p>
 
 
 
