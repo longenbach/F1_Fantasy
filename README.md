@@ -26,6 +26,10 @@ In case you are new to F1 like myself -- having watched the [Netflix series](htt
 
 Question: How does a driver's start position affect his finish position? 
 
+<p align="center">
+  <img src="imgs/2018_ResultvStart.png" width="400"/>
+  <img src="imgs/2019_ResultvStart.png" width="400"/>
+</p>
 
 
 
