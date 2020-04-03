@@ -46,7 +46,7 @@ Fantasy points are a little more complex which is detailed in the next section. 
 ## Fantasy Points:
 
 <p align="center">
-  <img src="imgs/MIP.png" width="700"/>
+  <img src="imgs/MIP.png" width="500"/>
 </p>
 
 
