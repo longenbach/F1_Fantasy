@@ -1,10 +1,5 @@
 # F1 Fantasy 2020
 
-
-<p align="center">
-  <img src="imgs/Netflix.png" width="800"/>
-</p>
-
 ## Overview:
 * Webscrape historical result data (qualifying, starting grid, race results) from [F1 website](https://www.formula1.com/en/results.html).   
 * Calculate driver/constructor points based on [fantasy points scoring](https://fantasy.formula1.com/points-scoring).
@@ -27,4 +22,10 @@ Extra:
 For the details see [games rules](https://fantasy.formula1.com/game-rules).
 
 ## Historical Data:
-Formula One is a rela
+In case you are new to F1 like myself -- having binged the [Netflix series](https://www.netflix.com/title/80204890) -- F1 is has a relatively small field for each race. Qualifying occurs in a three-stage "knockout" system. During stages all drivers who have not yet been eleminated are on the track try to set the fastest lap time. This process sets the starting grid for the race which is typically held on Sunday. 
+
+
+
+
+
+
