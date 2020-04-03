@@ -2,5 +2,5 @@
 
 
 <p align="center">
-  <img src="imgs/Select Team.jpg" width="400"/>
+  <img src="imgs/'Select Team.jpg'" width="400"/>
 </p>
