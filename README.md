@@ -11,7 +11,7 @@
   <img src="imgs/Select_Team.png" width="400"/>
 </p>
 
-1) Pick up to three teams of 5 drivers and 1 constructor from a $100m budget. 
+1) Pick a team of 5 drivers and 1 constructor from a $100m budget. 
 2) You must also select a Turbo Driver for each race who will score double points.
 3) Only drivers priced at under $20m can be selected as your Turbo Driver.
 
