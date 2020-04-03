@@ -1,6 +1,6 @@
 # F1 Fantasy 2020
 ## Overview:
-* Websrape historical result data (Qualifying, Starting Grid, Race Results) from [formula1.com](https://www.formula1.com/en/results.html)   
+* Websrape historical result data (Qualifying, Starting Grid, Race Results) from [link](https://www.formula1.com/en/results.html)   
 
 
 
