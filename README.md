@@ -21,7 +21,7 @@ Extra:
 
 For the details see [games rules](https://fantasy.formula1.com/game-rules).
 
-## Historical Data:
+## Historical Race Data:
 In case you are new to F1 like myself -- having only watched the [Netflix series](https://www.netflix.com/title/80204890) -- F1 is has a relatively small field for each race. Qualifying occurs in a three-stage "knockout" system. During stages all drivers who have not yet been eleminated are on the track try to set the fastest lap time. This process sets the starting grid for the race which is typically held on Sunday. 
 
 Each team a.k.a constructor has two race car drivers in each race. The top 10 drivers in Sunday's race score points (25,18,15,12,10,8,6,4,2,1) plus the driver who has the fastest lap gets 1 point. For example, if the two Mercedes drivers (Lewis Hamilton & Valtteri Bottas) place first and third plus Bottas has the fastest lap then Mercedes scores 25 + 15 + 1 = 41 points in pursuit of the **Constructors World Championship**. But Hamilton would have scored 25 - 16 = 9 points more than Bottas in pursuit of the **Drivers World Championship**. Hence teammate rivalries can be fierce in F1.  
