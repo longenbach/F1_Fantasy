@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="imgs/Netflix.png" width="400"/>
+  <img src="imgs/Netflix.png" width="800"/>
 </p>
 
 ## Overview:
