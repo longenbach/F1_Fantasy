@@ -42,11 +42,10 @@ Fantasy points are a little more complex which is detailed in the next section. 
   <img src="imgs/2019_NCs.png" width="400"/>
 </p>
 
-
 ## Fantasy Points:
+[Fantasy Points](https://fantasy.formula1.com/points-scoring)
 
+## Fantasy Optimization:
 <p align="center">
   <img src="imgs/MIP.png" width="500"/>
 </p>
-
-
