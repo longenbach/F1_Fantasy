@@ -18,7 +18,6 @@
 Extra: 
 
 * There are no restrictions on how many drivers can be used from a particular team.
-
 * Turbo driver can be different for each race, but must be selected prior to saving your team and doesn't count as a substitution. If your Turbo Driver's price increases to above $20m after you have selected them as your Turbo Driver you can keep them as your Turbo Driver.
 
 For the details see [detailed games rules](https://fantasy.formula1.com/game-rules).
