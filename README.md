@@ -47,7 +47,7 @@ Extra:
 For the details see [fantasy rules](https://fantasy.formula1.com/game-rules).
 
 ## F1 Fantasy Points:
-The fantasy points system is complex. Each race your 5 **Drivers** and 1 **Constructor** score points during qualifying session and Sunday's race. **Constructor** points are usually calculated by adding together their two driver's points. Streak points are also give out for consistent performance across 3 and/or 5 races in a row.
+The fantasy points system is complex. Each race your 5 **Drivers** and 1 **Constructor** score points during qualifying session and Sunday's race. **Constructor** points are essentially calculated by adding together their two driver's points. Streak points are also give out for consistent performance across 3 and/or 5 races in a row.
 
 For the details see [fantasy points](https://fantasy.formula1.com/points-scoring). 
 
