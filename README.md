@@ -53,11 +53,7 @@ For the details see [fantasy points](https://fantasy.formula1.com/points-scoring
 ## Optimization Formulation:
 * The goal is to maximize the weekly total number of points of our team. 
 * For all **Drivers** and **Constructors** we assign a binary decision of selected (X_s = 1) or not selected (X_s = 0). 
-* For the selected **Drivers** under 20 million (eleibdle as for Turbo) we a assign binary decision of selected (T_s = 1) or not selected (T_s = 0).  
-
-
-
-
+* Selected **Drivers** eligible for Turbo upgrade we assign a binary decision of selected (T_i = 1) or not selected (T_s = 0).  
 <p align="center">
   <img src="imgs/MIP.png" width="500"/>
 </p>
