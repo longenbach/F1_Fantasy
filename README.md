@@ -1,5 +1,7 @@
 # F1 Fantasy 2020
 
+
+
 ### Table of Contents: 
 * [Basics of Formula 1](#Basics-of-Formula-1)
 * [F1 Fantasy Rules](#F1-Fantasy-Rules)
