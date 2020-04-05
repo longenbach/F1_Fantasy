@@ -1,9 +1,16 @@
 # F1 Fantasy 2020
 
-## F1 Overview:
+## Overview:
+* Webscrape historical result data (qualifying, starting grid, race results) from [F1 website](https://www.formula1.com/en/results.html).   
+* Calculate driver/constructor points based on [fantasy points scoring](https://fantasy.formula1.com/points-scoring).
+* Apply [mixed integer programming (MIP)](https://developers.google.com/optimization/mip/integer_opt) to choose 2020 team based on 2019 points.
+
+## Basics of Formula 1:
 In case you are new to F1 like myself -- having only watched the [Netflix series](https://www.netflix.com/title/80204890) -- F1 is has a relatively small field for each race. Qualifying occurs in a three-stage "knockout" system. During stages all drivers who have not yet been eleminated are on the track try to set the fastest lap time. This process sets the starting grid for the race which is typically held on Sunday. 
 
-Each team a.k.a constructor has two race car drivers in each race. The top 10 drivers in Sunday's race score points (25,18,15,12,10,8,6,4,2,1) plus the driver who has the fastest lap gets 1 point. For example, if the two Mercedes drivers (Lewis Hamilton & Valtteri Bottas) place first and third plus Bottas has the fastest lap then Mercedes scores 25 + 15 + 1 = 41 points in pursuit of the **Constructors World Championship**. But Hamilton would have scored 25 - 16 = 9 points more than Bottas in pursuit of the **Drivers World Championship**. Hence teammate rivalries can be fierce in F1.  
+Each team a.k.a constructor has two race car drivers. The top 10 drivers in Sunday's race score points (25,18,15,12,10,8,6,4,2,1) plus the driver who has the fastest lap gets 1 point. For example, if the two Mercedes drivers (Lewis Hamilton & Valtteri Bottas) place first and third plus Bottas has the fastest lap then Mercedes scores 25 + 15 + 1 = 41 points in pursuit of the **Constructors World Championship**. But Hamilton would have scored 25 - 16 = 9 points more than Bottas in pursuit of the **Drivers World Championship**. Hence teammate rivalries can be fierce in F1. 
+
+Fantasy points are a little more complex which is detailed in the next section. A few preliminary questions I had when watching...  
 
 **Question:** How does a driver's start position affect his finish position? 
 
@@ -19,14 +26,8 @@ Each team a.k.a constructor has two race car drivers in each race. The top 10 dr
   <img src="imgs/2019_NCs.png" width="400"/>
 </p>
 
-Fantasy points are a little more complex which is detailed in the next section. Some initial questions I had...
 
-## Overview:
-* Webscrape historical result data (qualifying, starting grid, race results) from [F1 website](https://www.formula1.com/en/results.html).   
-* Calculate driver/constructor points based on [fantasy points scoring](https://fantasy.formula1.com/points-scoring).
-* Apply [mixed integer programming (MIP)](https://developers.google.com/optimization/mip/integer_opt) to choose 2020 team based on 2019 points.
-
-## Fantasy Rules:
+## F1 Fantasy Rules:
 <p align="center">
   <img src="imgs/Select_Team.png" width="400"/>
 </p>
@@ -42,8 +43,8 @@ Extra:
 
 For the details see [games rules](https://fantasy.formula1.com/game-rules).
 
+## F1 Fantasy Points:
 
-## Fantasy Points:
 [Fantasy Points](https://fantasy.formula1.com/points-scoring)
 
 ## Fantasy Optimization:
