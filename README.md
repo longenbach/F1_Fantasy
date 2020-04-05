@@ -47,7 +47,7 @@ Extra:
 For the details see [fantasy rules](https://fantasy.formula1.com/game-rules).
 
 ## F1 Fantasy Points:
-The fantasy points system is complex. Each race your 5 **Drivers** and 1 **Constructor** score points during qualifying session and Sunday's race. **Constructor** points are essentially calculated by adding together their two driver's points. Streak points are also give out for consistent performance across 3 and/or 5 races in a row.
+The fantasy points system is complex. Each race your 5 **Drivers** and 1 **Constructor** score points during qualifying session and Sunday's race. **Constructor** points are essentially calculated by adding together their two driver's points. Streak points are also given out for consistent top performance across 3 and 5 races in a row.
 
 For the details see [fantasy points](https://fantasy.formula1.com/points-scoring). 
 
@@ -72,7 +72,7 @@ For the details see [fantasy points](https://fantasy.formula1.com/points-scoring
 **OR-Tools Implementation:**
 
 * Use [Google OR-Tools](https://developers.google.com/optimization/mip/integer_opt) mixed integer programming (MIP) to solve.
-* Note implementation differ slightly from mathematical formulation.
+* Note implementation differs slightly from mathematical formulation.
 * Input data is in the from of pandas dataframe. **Example of data variable:**
 <p align="center">
   <img src="imgs/Pandas_df.png" width="500"/>
