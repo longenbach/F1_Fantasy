@@ -74,7 +74,7 @@ For the details see [fantasy points](https://fantasy.formula1.com/points-scoring
 * Note implementation differ slightly from mathematical formulation.
 * Input data is in the from of **pandas dataframe:** 
 <p align="center">
-  <img src="imgs/pandas_df.png" width="500"/>
+  <img src="imgs/Pandas_df.png" width="500"/>
 </p>
 
 ```python
