@@ -67,11 +67,15 @@ For the details see [fantasy points](https://fantasy.formula1.com/points-scoring
 <p align="center">
   <img src="imgs/MIP.png" width="500"/>
 </p>
+
 **OR-Tools Implementation:**
 
 * Use [Google OR-Tools](https://developers.google.com/optimization/mip/integer_opt) mixed integer programming (MIP) to solve.
 * Note implementation differ slightly from mathematical formulation.
 * Input data is in the from of **pandas dataframe:** 
+<p align="center">
+  <img src="imgs/pandas_df.png" width="500"/>
+</p>
 
 ```python
 from __future__ import print_function
