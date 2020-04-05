@@ -1,6 +1,6 @@
 # F1 Fantasy 2020
 
-
+Suspended due to covid-19 but work in progress on how to optimally pick F1 Fantasy 2020 team.
 
 ### Table of Contents: 
 * [Basics of Formula 1](#Basics-of-Formula-1)
