@@ -146,7 +146,7 @@ def main():
 
 ## Python Notebook:
 
-* **[F1 Team Selection.ipynb]**(https://github.com/longenbach/F1_Fantasy/blob/master/F1%20Team%20Selection.ipynb)
+* **F1 Team Selection.ipynb**(https://github.com/longenbach/F1_Fantasy/blob/master/F1%20Team%20Selection.ipynb)
   * Webscrape historical data from F1 website
   * Format historical data into pandas dataframes
   * Score historical data based Fantasy rules
