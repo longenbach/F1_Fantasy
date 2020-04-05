@@ -1,5 +1,11 @@
 # F1 Fantasy 2020
 
+### Table of Contents: 
+* [Basics of Formula 1](#Basics-of-Formula-1)
+* [F1 Fantasy Rules](#F1-Fantasy-Rules)
+* [F1 Fantasy Points](#F1-Fantasy-Points)
+* [Team Optimization](#Team-Optimization)
+
 ## Basics of Formula 1:
 In case you are new to F1 like myself -- having only watched the [Netflix series](https://www.netflix.com/title/80204890) -- F1 is has a relatively small field for each race. Qualifying occurs in a three-stage "knockout" system. During stages all drivers who have not yet been eleminated are on the track try to set the fastest lap time. This process sets the starting grid for the race which is typically held on Sunday. 
 
@@ -39,9 +45,9 @@ Extra:
 For the details see [fantasy rules](https://fantasy.formula1.com/game-rules).
 
 ## F1 Fantasy Points:
-Fantasy points are based on qualifying, the race, and position relative to your teammate. For the exact details see [fantasy points](https://fantasy.formula1.com/points-scoring). 
+Fantasy points are based on qualifying, the race, and position relative to your teammate. For the details see [fantasy points](https://fantasy.formula1.com/points-scoring). 
 
-## F1 Fantasy Optimization:
+## Team Optimization:
 
 
 
