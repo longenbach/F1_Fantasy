@@ -1,10 +1,5 @@
 # F1 Fantasy 2020
 
-## Overview:
-* Webscrape historical result data (qualifying, starting grid, race results) from [F1 website](https://www.formula1.com/en/results.html).   
-* Calculate driver/constructor points based on [fantasy points scoring](https://fantasy.formula1.com/points-scoring).
-* Apply [mixed integer programming (MIP)](https://developers.google.com/optimization/mip/integer_opt) to choose 2020 team based on 2019 points.
-
 ## Basics of Formula 1:
 In case you are new to F1 like myself -- having only watched the [Netflix series](https://www.netflix.com/title/80204890) -- F1 is has a relatively small field for each race. Qualifying occurs in a three-stage "knockout" system. During stages all drivers who have not yet been eleminated are on the track try to set the fastest lap time. This process sets the starting grid for the race which is typically held on Sunday. 
 
@@ -41,13 +36,20 @@ Extra:
 * There are no restrictions on how many drivers can be used from a particular team.
 * Turbo driver can be different for each race, but must be selected prior to saving your team and doesn't count as a substitution. If your Turbo Driver's price increases to above $20m after you have selected them as your Turbo Driver you can keep them as your Turbo Driver.
 
-For the details see [games rules](https://fantasy.formula1.com/game-rules).
+For the details see [fantasy rules](https://fantasy.formula1.com/game-rules).
 
 ## F1 Fantasy Points:
+Fantasy points are based on qualifying, the race, and position relative to your teammate. For the exact details see [fantasy points](https://fantasy.formula1.com/points-scoring). 
 
-[Fantasy Points](https://fantasy.formula1.com/points-scoring)
+## F1 Fantasy Optimization:
 
-## Fantasy Optimization:
+
+
 <p align="center">
   <img src="imgs/MIP.png" width="500"/>
 </p>
+
+## Overview:
+* Webscrape historical result data (qualifying, starting grid, race results) from [F1 website](https://www.formula1.com/en/results.html).   
+* Calculate driver/constructor points based on [fantasy points scoring](https://fantasy.formula1.com/points-scoring).
+* Apply [mixed integer programming (MIP)](https://developers.google.com/optimization/mip/integer_opt) to choose 2020 team based on 2019 points.
