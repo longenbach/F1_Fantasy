@@ -72,7 +72,7 @@ For the details see [fantasy points](https://fantasy.formula1.com/points-scoring
 
 * Use [Google OR-Tools](https://developers.google.com/optimization/mip/integer_opt) mixed integer programming (MIP) to solve.
 * Note implementation differ slightly from mathematical formulation.
-* Input data is in the from of **pandas dataframe:** 
+* Input data is in the from of pandas dataframe. **View of dataframe:**
 <p align="center">
   <img src="imgs/Pandas_df.png" width="500"/>
 </p>
