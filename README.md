@@ -51,6 +51,7 @@ The fantasy points system is complex. Each race your 5 **Drivers** and 1 **Const
 For the details see [fantasy points](https://fantasy.formula1.com/points-scoring). 
 
 ## Optimization Problem:
+**Mathematical Formulation:**
 * The goal is to maximize the weekly total number of points of our team. 
 * For all drivers and constructors we assign a binary decision of selected (X_s = 1) or not selected (X_s = 0). 
 * Turbo upgrade we assign a binary decision of selected (T_s = 1) or not selected (T_s = 0).
@@ -63,17 +64,14 @@ For the details see [fantasy points](https://fantasy.formula1.com/points-scoring
   * T_s = 0, X_s = 0 **allowed** meaning not selected as driver and not given Turbo upgrade
   * T_s = 1, X_s = 1 **allowed** meaning selected as driver and given Turbo upgrade
   * T_s = 1, X_s = 0 **not allowed** meaning not selected as driver and given Turbo upgrade 
-
-**Mathematical Formulation:**
 <p align="center">
   <img src="imgs/MIP.png" width="500"/>
 </p>
+**OR-Tools Implementation:**
 
 * Use [Google OR-Tools](https://developers.google.com/optimization/mip/integer_opt) mixed integer programming (MIP) to solve.
 * Note implementation differ slightly from mathematical formulation.
-* **Input data is in the from of pandas dataframe:** 
-
-**OR-Tools Implementation:**
+* Input data is in the from of **pandas dataframe:** 
 
 ```python
 from __future__ import print_function
