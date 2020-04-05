@@ -116,7 +116,7 @@ def main():
   constraint_expr = [x[j] for j in range(L-len(turbo_map),L)]
   solver.Add(sum(constraint_expr) <= 1)
 
-  ## Turbo Constraint (Turbo driver must be one of 5 drivers):
+  ## Turbo Constraint (Turbo driver must be one of the 5 drivers):
   for t in turbo_map:
     solver.Add(x[t] - x[turbo_map[t]]  <= 0)
 
