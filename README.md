@@ -146,8 +146,8 @@ def main():
 
 ## Python Notebook:
 
-* **F1 Team Selection.ipynb**(https://github.com/longenbach/F1_Fantasy/blob/master/F1%20Team%20Selection.ipynb)
-  * Webscrape historical data from F1 website
+* [**F1 Team Selection.ipynb**](https://github.com/longenbach/F1_Fantasy/blob/master/F1%20Team%20Selection.ipynb)
+  * Webscrape historical data from F1 [website](https://www.formula1.com/en/results.html)
   * Format historical data into pandas dataframes
-  * Score historical data based Fantasy rules
+  * Score historical data based Fantasy scoring
   * Google OR-Tools to optimally select team
