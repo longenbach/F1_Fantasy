@@ -4,7 +4,7 @@
 * [Basics of Formula 1](#Basics-of-Formula-1)
 * [F1 Fantasy Rules](#F1-Fantasy-Rules)
 * [F1 Fantasy Points](#F1-Fantasy-Points)
-* [Optimization Formulation](#Optimization-Formulation)
+* [Optimization Problem](#Optimization-Problem)
 
 ## Basics of Formula 1:
 In case you are new to F1 like myself -- having only watched the [Netflix series](https://www.netflix.com/title/80204890) -- F1 is has a relatively small field for each race. Qualifying occurs in a three-stage "knockout" system. During stages all drivers who have not yet been eleminated are on the track try to set the fastest lap time. This process sets the starting grid for the race which is typically held on Sunday. 
@@ -50,7 +50,7 @@ The fantasy points system is complex. Each race your 5 **Drivers** and 1 **Const
 
 For the details see [fantasy points](https://fantasy.formula1.com/points-scoring). 
 
-## Optimization Formulation:
+## Optimization Problem:
 * The goal is to maximize the weekly total number of points of our team. 
 * For all drivers and constructors we assign a binary decision of selected (X_s = 1) or not selected (X_s = 0). 
 * Turbo upgrade we assign a binary decision of selected (T_s = 1) or not selected (T_s = 0).
@@ -69,7 +69,11 @@ For the details see [fantasy points](https://fantasy.formula1.com/points-scoring
   <img src="imgs/MIP.png" width="500"/>
 </p>
 
-**OR-Tools Formulation:**
+* Use [Google OR-Tools](https://developers.google.com/optimization/mip/integer_opt) mixed integer programming (MIP) to solve.
+* Note implementation differ slightly from mathematical formulation.
+* **Input data is in the from of pandas dataframe:** 
+
+**OR-Tools Implementation:**
 
 ```python
 from __future__ import print_function
