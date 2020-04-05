@@ -56,17 +56,15 @@ For the details see [fantasy points](https://fantasy.formula1.com/points-scoring
 * Turbo upgrade we assign a binary decision of selected (T_s = 1) or not selected (T_s = 0).
 * The cost of selections must be under 100 million.  
 * A team must have exactly 5 drivers and 1 constructor.
-* Only 1 Turbo upgrade for eligible selections (drivers under 20 million). 
-* No Turbo upgrades for non-eligible selections (drivers over 20 million and constructors). 
-* Turbo upgrade must be assigned to one of 5 selected drivers. **Hence for all T_s - X_s =< 0**
+* Assign one Turbo upgrade for eligible selections a.k.a (drivers under 20 million). 
+* Assign zero Turbo upgrades for non-eligible selections a.k.a (drivers over 20 million and constructors). 
+* Turbo upgrade must be assigned to one of 5 selected drivers. **Hence for all (T_s - X_s =< 0)**
   * T_s = 0, X_s = 1 **allowed** meaning selected as driver and not given Turbo upgrade
   * T_s = 0, X_s = 0 **allowed** meaning not selected as driver and not given Turbo upgrade
   * T_s = 1, X_s = 1 **allowed** meaning selected as driver and given Turbo upgrade
-  * T_s = 0, X_s = 1 **not allowed** meaning not selected as driver and given Turbo upgrade 
-  
+  * T_s = 1, X_s = 0 **not allowed** meaning not selected as driver and given Turbo upgrade 
 
-
-
+**Mathematical Formulation:**
 <p align="center">
   <img src="imgs/MIP.png" width="500"/>
 </p>
