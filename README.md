@@ -138,7 +138,7 @@ def main():
   status = solver.Solve()
 ```
 
-**Example output:**
+**Example of Solved Output:**
 <p align="center">
   <img src="imgs/Output.png" width="500"/>
 </p>
