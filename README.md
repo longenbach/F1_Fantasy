@@ -69,6 +69,69 @@ For the details see [fantasy points](https://fantasy.formula1.com/points-scoring
   <img src="imgs/MIP.png" width="500"/>
 </p>
 
+**OR-Tools Formulation:**
+
+```python
+from __future__ import print_function
+from ortools.linear_solver import pywraplp
+
+def main():
+  ## Create Data:
+  data = assign_Points(year, Fantasy_Data, Season_Points, theta = "sum", nLast_races = None, add_random = True)
+  solver = pywraplp.Solver('simple_mip_program',
+                            pywraplp.Solver.CBC_MIXED_INTEGER_PROGRAMMING)
+  ## Create Varibles: 
+  x = {}
+  L = data.shape[0]
+  turbo_map = {}
+  for j in range(data.shape[0]):
+    x[j] = solver.IntVar(0, 1, 'x[%s]' % data["Drivers/Teams"][j])
+    if data["Turbo"][j] == "Turbo":
+      x[L] = solver.IntVar(0, 1, 't[%s]' % data["Drivers/Teams"][j])
+      turbo_map[L] = j 
+      L += 1
+  
+  ## Cost Constraint (< 100m):
+  constraint_expr = [data["Price"][j] * x[j] for j in range(data.shape[0])]
+  solver.Add(sum(constraint_expr) <= 100.0)
+  
+  ## Amount Constraint (6 selections):
+  constraint_expr = [x[j] for j in range(data.shape[0])]
+  solver.Add(sum(constraint_expr) <= 6)
+
+  drivers, constructors = [], []
+  for j in range(data.shape[0]):
+    if data["Type"][j] == "Driver":
+      drivers.append(x[j])
+    elif data["Type"][j] == "Constructor":
+      constructors.append(x[j])
+    else:
+      print("ERROR: Seat is either driver or constructor.")
+  
+  ## Composition Constraint (5 drivers & 1 contructor):
+  solver.Add(sum(drivers) == 5)
+  solver.Add(sum(constructors) == 1)
+
+  ## Turbo Constraint (only 1 driver):
+  constraint_expr = [x[j] for j in range(L-len(turbo_map),L)]
+  solver.Add(sum(constraint_expr) <= 1)
+
+  ## Turbo Constraint (Turbo driver must be one of 5 drivers):
+  for t in turbo_map:
+    solver.Add(x[t] - x[turbo_map[t]]  <= 0)
+
+  ## Objective:
+  objective = solver.Objective()
+  for j in range(L):
+    if j < data.shape[0]:
+      objective.SetCoefficient(x[j], float(data['Points'][j]))
+    else:
+      objective.SetCoefficient(x[j], float(data['Points'][turbo_map[j]]))
+  objective.SetMaximization()
+  
+  status = solver.Solve()
+```
+
 ## Overview:
 * Webscrape historical result data (qualifying, starting grid, race results) from [F1 website](https://www.formula1.com/en/results.html).   
 * Calculate driver/constructor points based on [fantasy points scoring](https://fantasy.formula1.com/points-scoring).
