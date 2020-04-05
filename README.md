@@ -5,6 +5,7 @@
 * [F1 Fantasy Rules](#F1-Fantasy-Rules)
 * [F1 Fantasy Points](#F1-Fantasy-Points)
 * [Optimization Problem](#Optimization-Problem)
+* [Python Notebook](#Python-Notebook)
 
 ## Basics of Formula 1:
 In case you are new to F1 like myself -- having only watched the [Netflix series](https://www.netflix.com/title/80204890) -- F1 is has a relatively small field for each race. Qualifying occurs in a three-stage "knockout" system. During stages all drivers who have not yet been eleminated are on the track try to set the fastest lap time. This process sets the starting grid for the race which is typically held on Sunday. 
@@ -143,5 +144,10 @@ def main():
   <img src="imgs/Output.png" width="500"/>
 </p>
 
-## Files:
+## Python Notebook:
 
+* **[F1 Team Selection.ipynb]**(https://github.com/longenbach/F1_Fantasy/blob/master/F1%20Team%20Selection.ipynb)
+  * Webscrape historical data from F1 website
+  * Format historical data into pandas dataframes
+  * Score historical data based Fantasy rules
+  * Google OR-Tools to optimally select team
