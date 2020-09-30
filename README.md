@@ -76,7 +76,9 @@ For the details see [fantasy points](https://fantasy.formula1.com/points-scoring
 
 * Use [Google OR-Tools](https://developers.google.com/optimization/mip/integer_opt) mixed integer programming (MIP) to solve.
 * Note implementation differs slightly from the mathematical formulation.
-* Input data is in the form of a pandas data frame. **Example of data variable:**
+* Input data is in the form of a pandas data frame. 
+
+**Example of data variable:**
 <p align="center">
   <img src="imgs/Pandas_df.png" width="500"/>
 </p>
