@@ -32,6 +32,7 @@ Fantasy points are a little more complex, which is detailed in a later section. 
 
 
 ## F1 Fantasy Rules:
+
 <p align="center">
   <img src="imgs/Select_Team.png" width="400"/>
 </p>
@@ -42,14 +43,14 @@ Fantasy points are a little more complex, which is detailed in a later section. 
 
 Extra: 
 
-* There are no restrictions on how many drivers can be used from a particular team.
-* Turbo driver can be different for each race, but must be selected prior to saving your team and doesn't count as a substitution. If your Turbo Driver's price increases to above $20m after you have selected them as your Turbo Driver you can keep them as your Turbo Driver.
+* There are no restrictions on how many drivers can be used by a particular team.
+* A Turbo Driver can be different for each race but must be selected before saving your team and doesn't count as a substitution. If your Turbo Driver's price increases to above $20m after you have selected them as your Turbo Driver you can keep them as your Turbo Driver.
 * You also have two Mega Driver plays per season which multiplies the points scored by the selected driver by 3x. 
 
 For the details see [fantasy rules](https://fantasy.formula1.com/game-rules).
 
 ## F1 Fantasy Points:
-The fantasy points system is complex. Each race your 5 **Drivers** and 1 **Constructor** score points during qualifying session and Sunday's race. **Constructor** points are essentially calculated by adding together their two driver's points. Streak points are also given out for consistent top performance across 3 and 5 races in a row.
+The fantasy points system is complex. Each race your 5 **Drivers** and 1 **Constructor** score points during the qualifying session and Sunday's race. **Constructor** points are essentially calculated by adding together their two driver's points. Streak points are also given out for consistent top performance across 3 and 5 races in a row.
 
 For the details see [fantasy points](https://fantasy.formula1.com/points-scoring). 
 
@@ -74,8 +75,8 @@ For the details see [fantasy points](https://fantasy.formula1.com/points-scoring
 **OR-Tools Implementation:**
 
 * Use [Google OR-Tools](https://developers.google.com/optimization/mip/integer_opt) mixed integer programming (MIP) to solve.
-* Note implementation differs slightly from mathematical formulation.
-* Input data is in the from of pandas dataframe. **Example of data variable:**
+* Note implementation differs slightly from the mathematical formulation.
+* Input data is in the form of a pandas data frame. **Example of data variable:**
 <p align="center">
   <img src="imgs/Pandas_df.png" width="500"/>
 </p>
